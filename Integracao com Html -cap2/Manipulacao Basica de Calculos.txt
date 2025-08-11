@@ -1,0 +1,30 @@
+arredondando:
+Math.round(x) → Arredonda o número para o inteiro mais próximo.
+Ex: Math.round(4.7) retorna 5
+
+Math.floor(x) → Arredonda o número para baixo.
+Ex: Math.floor(4.9) retorna 4
+
+Math.ceil(x) → Arredonda o número para cima.
+Ex: Math.ceil(4.1) retorna 5
+
+
+Valor Absoluto:
+Math.abs(x) → Retorna o valor absoluto (sem sinal).
+Ex: Math.abs(-7) retorna 7
+
+
+Potência:
+Math.pow(base, expoente) → Eleva a base ao expoente.
+Ex: Math.pow(2, 3) retorna 8
+
+
+
+Raiz:
+math.sqrt(x) → Retorna a raiz quadrada.
+Ex: Math.sqrt(16) retorna 4); // 4
+
+
+numero aleatorio:
+Math.random() → Retorna um número aleatório entre 0 e 1
+Ex: Math.random() pode retornar 0.237, por exemplo

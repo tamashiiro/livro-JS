@@ -1,0 +1,34 @@
+condiçoes js - 
+
+em js, para usar condiçoes, temos: if, else, swich case, else if
+
+if= se (igual "if" em py)
+else= senao (igual "else" em py)
+else if= senao se (igual ao "elif" de py)
+switch case= verifque varios casos (como se fosse if, elif e else em py)
+
+*py = python
+
+
+
+operadores de comparaçao:
+
+&& = usado para "and". "se isso for igual a isso e isso", poe exemplo
+
+|| = usado para "or". "se isso for igual a isso ou esse foir igual a este", por exemplo
+
+== = usado para "=". "se isso for igual a isso". por exemplo
+
+=! = usado para "diferente". "se isso for diferente disso". por exempo
+
+! = usado para "not". esse inverte os elemntos, como mostrado acima
+
+> = maior que
+< =menor que
+>= maior ou igual que
+<= menor ou igual que
+
+em js temos tambem o ===, parecido com == e !==, parecido com !=.
+A diferença deles é que os que tem um "=" a mais, verificam estrtitamente a informaçao, entao se um "5" é comparado com um 5, vai ser mostrado que sao diferentes, pois "5" é string e 5 é numero
+
+ 

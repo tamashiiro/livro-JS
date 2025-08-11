@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const a = "20"
+        const b = a *2   //40
+        const c = a /2   //10
+        const d = a -2   //18
+        const e = a +2   //202
+    /*isso acontece, pois a variavel "a" foi colocada como string, entao nas operaçoes de /,*,- o js entende "a" como numero, porem na operaçao de +, essa string a precisa ser colocada como numero , pois nao se modifica automaticamnte igual as outras*/
+        const f = Number (a) +2    //22       <<<-soluçao- o "Number()" pega e transforma a string "20" no numero 20
+
+    
+
+        //tipos de variaveis usando "typeof para exibir cada uma": 
+
+        const fruta = "banana"  
+        const preco = 3.50 
+        const levou = true
+        let novoValor
+
+        console.log(typeof fruta) //string
+        console.log(typeof preco) //number
+        console.log(typeof levou) //boolean
+        console.log(typeof novoValor) //undefined
+    
+    
+
+
+        //vendo se o numero é inteio com isInteger():
+        console.log(Number.isInteger(12))  //true
+        console.log(Number.isInteger(3.5))  //false
+    </script>          
+</body>
+</html>

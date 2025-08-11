@@ -1,0 +1,15 @@
+no js integrado ao html, temos o querySelector e getElementById.
+
+os dois sao comando de js e suas funçoes sao a mesma, pegar elemntos do html
+
+getElementById.    >>> esse é mais antigo e pega o elemnto exclusiamente por id
+
+	const titulo = document.getElementById('titulo')
+
+
+querySelector      >>> esse é mais moderno e pode pegar o elemento por id, clase e varios outros
+
+ex:
+	const resp = document.querySelector("h3")
+	const cor = document.querySelector("#inCor") 
+	const lista = document,querySelector(".lista")  
